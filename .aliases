@@ -1,0 +1,20 @@
+# NAVIGATION
+##############
+
+alias ..='cd ..'				# Move back 1 directory level
+alias ...='cd ../..'				# Move back 2 directory levels
+alias ....='cd ../../..'			# Move back 3 directory levels
+
+## Shortcuts
+
+alias ~='cd ~/'					# Jump to: Home
+alias dev='cd ~/Development'			# Jump to: Home/Development
+
+
+alias path='echo $PATH | tr ":" "\n" | sort'    # Print $path
+
+# DEVELOPMENT
+###############
+
+alias venv='virtualenv venv --no-site-packages'
+alias activate='source venv/bin/activate'
