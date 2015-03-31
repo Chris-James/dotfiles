@@ -1,20 +1,84 @@
+#
+#
+#
+# .aliases
+#
+# Sections: 
+#   1. Globals
+#   2. Navigation
+# 
+#   3. Development
+#
+#
+#
+
+
+# GLOBALS
+
+    # Pretty-print $PATH
+    alias path='echo $PATH | tr ":" "\n" | sort'
+
+
 # NAVIGATION
-##############
 
-alias ..='cd ..'				# Move back 1 directory level
-alias ...='cd ../..'				# Move back 2 directory levels
-alias ....='cd ../../..'			# Move back 3 directory levels
+	# MOVEMENTS
 
-## Shortcuts
+		# Move Back 1 Directory Level
+		alias ..='cd ..'
 
-alias ~='cd ~/'					# Jump to: Home
-alias dev='cd ~/Development'			# Jump to: Home/Development
+		# Move Back 2 Directory Levels
+		alias ...='cd ../..'
+
+		# Move Back 3 Directory Levels
+		alias ....='cd ../../..'
 
 
-alias path='echo $PATH | tr ":" "\n" | sort'    # Print $path
+	# SHORTCUTS
+
+	# Home
+	alias ~='cd ~/'
+
+	# DEVELOPMENT
+	
+		alias dev='cd ~/Development/'
+
+		# LOVE 146
+
+			alias love146='cd ~/Development/love146/'
+
+		# PERSONAL
+	
+			alias personal='cd ~/Development/personal'
+
+			# A100
+			alias a100='cd ~/Development/personal/A100/'
+
+			# Learn C The Hard Way
+			alias learnc='cd ~/Development/personal/LearnCTheHardWay'
+
+			# WOD Engine
+			alias wod='cd ~/Development/personal/WodEngine/'
+		
+		# SCHOOL
+
+			# CSC 399A (Sys Pro)
+
+				alias csc='cd ~/Development/school/csc399a/'
+
+				# Frequency Counter
+				alias freq='cd ~/Development/school/csc399a/Program_02/FrequencyCounter/'
 
 # DEVELOPMENT
-###############
 
-alias venv='virtualenv venv --no-site-packages'
-alias activate='source venv/bin/activate'
+	# Python
+
+		# Virtual Environment
+
+			# Create new Virtual Environment
+			alias venv='virtualenv venv'
+
+			# Activate Virtual Environment
+			alias activate='source venv/bin/activate'
+
+			# Freeze Requirements
+			alias freeze='pip freeze > requirements.txt'
