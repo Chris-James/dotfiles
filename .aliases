@@ -1,84 +1,99 @@
-#
-#
-#
+
 # .aliases
-#
-# Sections: 
+
+# Sections:
 #   1. Globals
 #   2. Navigation
-# 
 #   3. Development
 #
-#
-#
 
 
-# GLOBALS
+# 1. GLOBALS
 
-    # Pretty-print $PATH
-    alias path='echo $PATH | tr ":" "\n" | sort'
+  # Pretty-print $PATH
+  alias path='echo $PATH | tr ":" "\n" | sort'
 
+  # prm - A minimal project manager for the terminal.
+  # https://github.com/eivind88/prm
+  # https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
+  alias prm='. ~/Development/prm.sh'
 
 # NAVIGATION
 
-	# MOVEMENTS
+  #	MOVEMENTS
 
-		# Move Back 1 Directory Level
-		alias ..='cd ..'
+    # Move Back 1 Directory Level
+    alias ..='cd ..'
 
-		# Move Back 2 Directory Levels
-		alias ...='cd ../..'
+    # Move Back 2 Directory Levels
+    alias ...='cd ../..'
 
-		# Move Back 3 Directory Levels
-		alias ....='cd ../../..'
+    # Move Back 3 Directory Levels
+    alias ....='cd ../../..'
 
 
-	# SHORTCUTS
+  # SHORTCUTS
 
-	# Home
-	alias ~='cd ~/'
+    # Home
+    alias ~='cd ~/'
 
-	# DEVELOPMENT
-	
-		alias dev='cd ~/Development/'
-
-		# LOVE 146
-
-			alias love146='cd ~/Development/love146/'
-
-		# PERSONAL
-	
-			alias personal='cd ~/Development/personal'
-
-			# A100
-			alias a100='cd ~/Development/personal/A100/'
-
-			# Learn C The Hard Way
-			alias learnc='cd ~/Development/personal/LearnCTheHardWay'
-
-			# WOD Engine
-			alias wod='cd ~/Development/personal/WodEngine/'
-		
-		# SCHOOL
-
-			# CSC 399A (Sys Pro)
-
-				alias csc='cd ~/Development/school/csc399a/'
-
-				# Frequency Counter
-				alias freq='cd ~/Development/school/csc399a/Program_02/FrequencyCounter/'
+    # Desktop
+    alias desktop='cd ~/Desktop'
 
 # DEVELOPMENT
 
-	# Python
+  alias dev='cd ~/Development/'
 
-		# Virtual Environment
+  # Independent-Software
 
-			# Create new Virtual Environment
-			alias venv='virtualenv venv'
+    alias indie='cd ~/Development/work/indie-soft/'
+    alias a100='cd ~/Development/work/indie-soft/a100/'
+    alias xav='cd ~/Development/work/indie-soft/project-xavier/'
 
-			# Activate Virtual Environment
-			alias activate='source venv/bin/activate'
+  # PERSONAL
 
-			# Freeze Requirements
-			alias freeze='pip freeze > requirements.txt'
+    alias personal='cd ~/Development/personal/'
+    alias projects='cd ~/Development/personal/projects/'
+    alias edu='cd ~/Development/personal/education/'
+    alias blog='cd ~/Development/personal/blog/'
+
+    # Resume
+    alias resume='cd ~/Development/personal/Chris-James.github.io/'
+
+    # Learn C The Hard Way
+    # alias learnc='cd ~/Development/personal/LearnCTheHardWay'
+
+    # WOD Engine
+    # alias wod='cd ~/Development/personal/WodEngine/'
+
+    # Meteor
+    # alias meteordev='cd ~/Development/personal/meteor/'
+
+    # SCHOOL
+
+    # CSC 399A (Sys Pro)
+    alias cpro='cd ~/Development/personal/education/cProgramming/'
+    alias csc='cd ~/Development/school/education/csc399a/'
+
+# DEVELOPMENT
+
+  # Git
+
+    # Push to GitHub
+    alias gpom='git push -u origin master'
+
+  # Python
+
+    # Start Simple HTTP Server
+    alias serv='python -m SimpleHTTPServer 8000'
+
+    # Virtual Environment
+
+      # Create new Virtual Environment in current directory
+      alias venv='virtualenv venv'
+
+      # Activate Virtual Environment in current directory
+      alias activate='source venv/bin/activate'
+
+      # Freeze Requirements
+      alias freeze='pip freeze > requirements.txt'
