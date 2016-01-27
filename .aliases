@@ -1,14 +1,15 @@
 
 # .aliases
 
-# Sections:
-#   1. Globals
-#   2. Navigation
-#   3. Development
-#
+# Globals
+#   Navigation
+#     Directory Movement
+#     Shortcuts
+#   Development
+#     Git
+#     Python
 
-
-# 1. GLOBALS
+# GLOBALS
 
   # Pretty-print $PATH
   alias path='echo $PATH | tr ":" "\n" | sort'
@@ -20,7 +21,7 @@
 
 # NAVIGATION
 
-  #	MOVEMENTS
+  # Directory Movement
 
     # Move Back 1 Directory Level
     alias ..='cd ..'
@@ -31,8 +32,7 @@
     # Move Back 3 Directory Levels
     alias ....='cd ../../..'
 
-
-  # SHORTCUTS
+  # Shortcuts
 
     # Home
     alias ~='cd ~/'
@@ -40,47 +40,59 @@
     # Desktop
     alias desktop='cd ~/Desktop'
 
-# DEVELOPMENT
+    # Development
+    alias dev='cd ~/Development/'
 
-  alias dev='cd ~/Development/'
+      # Independent Software
+      alias indie='cd ~/Development/work/indie-soft/'
 
-  # Independent-Software
+        # A100
+        alias a100='cd ~/Development/work/a100/'
 
-    alias indie='cd ~/Development/work/indie-soft/'
-    alias a100='cd ~/Development/work/indie-soft/a100/'
-    alias xav='cd ~/Development/work/indie-soft/project-xavier/'
+        # Project Xavier
+        # alias xav='cd ~/Development/work/indie-soft/project-xavier/'
 
-  # PERSONAL
+      # Personal
+      alias personal='cd ~/Development/personal/'
 
-    alias personal='cd ~/Development/personal/'
-    alias projects='cd ~/Development/personal/projects/'
-    alias edu='cd ~/Development/personal/education/'
-    alias blog='cd ~/Development/personal/blog/'
+        # Personal Projects
+        alias projects='cd ~/Development/personal/projects/'
 
-    # Resume
-    alias resume='cd ~/Development/personal/Chris-James.github.io/'
+          # Resume
+          alias resume='cd ~/Development/personal/Chris-James.github.io/'
 
-    # Learn C The Hard Way
-    # alias learnc='cd ~/Development/personal/LearnCTheHardWay'
+          # WOD Engine
+          # alias wod='cd ~/Development/personal/WodEngine/'
 
-    # WOD Engine
-    # alias wod='cd ~/Development/personal/WodEngine/'
+          # Blog
+          alias blog='cd ~/Development/personal/blog/'
 
-    # Meteor
-    # alias meteordev='cd ~/Development/personal/meteor/'
+        # Tutorials, Etc.
+        alias edu='cd ~/Development/personal/education/'
+
+          # C Programming: A Modern Approach
+          alias cpro='cd ~/Development/personal/education/cProgramming/'
+
+          # Learn C The Hard Way
+          # alias learnc='cd ~/Development/personal/LearnCTheHardWay'
+
+        # Meteor
+        # alias meteordev='cd ~/Development/personal/meteor/'
 
     # SCHOOL
 
-    # CSC 399A (Sys Pro)
-    alias cpro='cd ~/Development/personal/education/cProgramming/'
-    alias csc='cd ~/Development/school/education/csc399a/'
+      # CSC 399A (Sys Pro)
+      alias csc='cd ~/Development/school/csc399/'
 
 # DEVELOPMENT
 
   # Git
 
-    # Push to GitHub
+    # git push origin master
     alias gpom='git push -u origin master'
+
+    # Commit with Commitizen (if enabled in directory)
+    alias gcom='git cz'
 
   # Python
 
