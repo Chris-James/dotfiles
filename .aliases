@@ -94,6 +94,12 @@
     # Commit with Commitizen (if enabled in directory)
     alias gcom='git cz'
 
+    # git commit --amend
+    alias gcam='git commit --amend'
+
+    # git add .
+    alias gadd='git add .'
+
   # Python
 
     # Start Simple HTTP Server
