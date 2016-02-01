@@ -100,6 +100,9 @@
     # git add .
     alias gadd='git add .'
 
+    # custom git log
+    alias gsho='git log --date=short --pretty=format:"%ad %C(yellow)%cn%C(reset) %C(normal)committed%C(reset) %C(green)<%h>%C(reset) %C(cyan)%s%C(reset)"'
+
   # Python
 
     # Start Simple HTTP Server
