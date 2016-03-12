@@ -103,6 +103,9 @@
     # custom git log
     alias gsho='git log --date=short --pretty=format:"%ad %C(yellow)%cn%C(reset) %C(normal)committed%C(reset) %C(green)<%h>%C(reset) %C(cyan)%s%C(reset)"'
 
+    # git status
+    alias gtus='git status'
+
   # Python
 
     # Start Simple HTTP Server
