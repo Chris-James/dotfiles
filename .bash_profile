@@ -28,3 +28,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Added by AutoEnv
 source /usr/local/opt/autoenv/activate.sh
+
+# Make nano default editor
+export EDITOR="/usr/bin/nano"
