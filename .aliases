@@ -106,6 +106,9 @@
     # git status
     alias gtus='git status'
 
+    # git unstage
+    alias guns='git unstage'
+
   # Python
 
     # Start Simple HTTP Server
