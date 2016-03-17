@@ -92,19 +92,19 @@
     alias gpom='git push -u origin master'
 
     # Commit with Commitizen (if enabled in directory)
-    alias gcom='git cz'
+    alias gcomm='git cz'
 
     # git commit --amend
-    alias gcam='git commit --amend'
+    alias gcamm='git commit --amend'
 
     # git add .
     alias gadd='git add .'
 
     # custom git log
-    alias gsho='git log --date=short --pretty=format:"%ad %C(yellow)%cn%C(reset) %C(normal)committed%C(reset) %C(green)<%h>%C(reset) %C(cyan)%s%C(reset)"'
+    alias gshow='git log --date=short --pretty=format:"%ad %C(yellow)%cn%C(reset) %C(normal)committed%C(reset) %C(green)<%h>%C(reset) %C(cyan)%s%C(reset)"'
 
     # git status
-    alias gtus='git status'
+    alias gstat='git status'
 
     # git unstage
     alias guns='git unstage'
