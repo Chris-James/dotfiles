@@ -89,7 +89,7 @@
   # Git
 
     # git push origin master
-    alias gpom='git push -u origin master'
+    alias gpush='git push -u origin master'
 
     # Commit with Commitizen (if enabled in directory)
     alias gcomm='git cz'
