@@ -100,6 +100,9 @@
     # git add .
     alias gadd='git add .'
 
+    # git add -p
+    alias gaddp='git add -p'
+
     # custom git log
     alias gshow='git log --date=short --pretty=format:"%ad %C(yellow)%cn%C(reset) %C(normal)committed%C(reset) %C(green)<%h>%C(reset) %C(cyan)%s%C(reset)"'
 
@@ -108,6 +111,12 @@
 
     # git unstage
     alias guns='git unstage'
+
+    # git diff
+    alias gdiff='git diff'
+
+    # git diff --cached
+    alias gdifc='git diff --cached'
 
   # Python
 
