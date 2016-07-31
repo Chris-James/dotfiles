@@ -98,7 +98,7 @@
     alias gcame='git commit --amend'
 
     # git add .
-    alias gadd='git add .'
+    alias gadda='git add .'
 
     # git add -p
     alias gaddp='git add -p'
