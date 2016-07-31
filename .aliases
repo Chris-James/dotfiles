@@ -95,7 +95,7 @@
     alias gcomm='git cz'
 
     # git commit --amend
-    alias gcamm='git commit --amend'
+    alias gcame='git commit --amend'
 
     # git add .
     alias gadd='git add .'
