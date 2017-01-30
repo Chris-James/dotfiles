@@ -24,3 +24,9 @@ function wallpapers() {
 function pomo() {
   ding in 25m --no-timer;ding in 5m --no-timer
 }
+
+# `atom()` with no arguments opens the current directory in Atom, otherwise it
+# opens the given location
+function atom() {
+  [[ $# -eq 0 ]] && command atom . || command atom "$@";
+}
