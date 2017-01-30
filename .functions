@@ -18,3 +18,9 @@ function play() {
 function wallpapers() {
   open "/Library/Desktop\ Pictures"
 }
+
+# Bare-bones Pomodoro timer using motherboard audio
+# see: https://github.com/liviu-/ding
+function pomo() {
+  ding in 25m --no-timer;ding in 5m --no-timer
+}
