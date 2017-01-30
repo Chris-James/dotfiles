@@ -1,4 +1,4 @@
-# Moves file to the MacOS trash.
+# Moves file(s) to the macOS trash.
 function trash() {
   command mv "$@" ~/.Trash;
 }
