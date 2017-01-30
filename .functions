@@ -7,3 +7,9 @@ function trash() {
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+
+# Quickly play audio from `/snippets`
+function play() {
+  local audio=$(find /Users/Chris/Music/snippets -name "$1*");
+  mpg123 -q "$audio" &> /dev/null;
+}
