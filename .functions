@@ -2,3 +2,8 @@
 function trash() {
   command mv "$@" ~/.Trash;
 }
+
+# Create new directory and `cd` into it
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
