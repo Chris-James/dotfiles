@@ -13,3 +13,8 @@ function play() {
   local audio=$(find /Users/Chris/Music/snippets -name "$1*");
   mpg123 -q "$audio" &> /dev/null;
 }
+
+# Open Wallpaper Directory
+function wallpapers() {
+  open "/Library/Desktop\ Pictures"
+}
