@@ -16,3 +16,8 @@ source /usr/local/opt/autoenv/activate.sh
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
+
+# Bash Powerline
+# https://github.com/riobard/bash-powerline
+# ...uncomment to enable
+# source ~/.bash-powerline.sh
