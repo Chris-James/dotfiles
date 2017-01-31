@@ -1,0 +1,22 @@
+#! /bin/bash
+
+# Set PATH
+export PATH="/usr/local/bin:$PATH"
+
+# Add postgresql to PATH
+export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+
+# Add MongoDB.app binaries to PATH
+export PATH="/Applications/MongoDB.app/Contents/Resources/Vendor/mongodb:$PATH"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# SET GOPATH
+export GOPATH="$HOME/golang"
+
+# Add Go to PATH
+export PATH="$GOPATH/bin:$PATH"
+
+# Powscript
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
