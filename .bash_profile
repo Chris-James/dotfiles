@@ -10,6 +10,3 @@ unset file;
 
 ### Added by AutoEnv
 source /usr/local/opt/autoenv/activate.sh
-
-# Make nano default editor
-export EDITOR="/usr/bin/nano"
