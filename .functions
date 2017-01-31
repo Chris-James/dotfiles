@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Moves file(s) to the macOS trash.
 function trash() {
   command mv "$@" ~/.Trash;
@@ -29,4 +31,9 @@ function pomo() {
 # opens the given location
 function atom() {
   [[ $# -eq 0 ]] && command atom . || command atom "$@";
+}
+
+# Recursively delete `.DS_Store` files
+function cleanup() {
+  find . -type f -name '*.DS_Store' -ls -delete;
 }
