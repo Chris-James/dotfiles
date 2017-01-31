@@ -23,15 +23,11 @@
 # NAVIGATION
 
   # Directory Movement
-
-    # Move Back 1 Directory Level
-    alias ..='cd ..'
-
-    # Move Back 2 Directory Levels
-    alias ...='cd ../..'
-
-    # Move Back 3 Directory Levels
-    alias ....='cd ../../..'
+  alias ..='cd ..'              # Move back 1 level
+  alias ..2='cd ../..'          # Move back 2 levels
+  alias ..3='cd ../../..'       # Move back 3 levels
+  alias ..4='cd ../../../..'    # Move back 4 levels
+  alias ..5='cd ../../../../..' # Move back 5 levels
 
   # Shortcuts
 
