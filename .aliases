@@ -50,7 +50,7 @@
         alias a100='cd ~/Development/work/a100/'
 
         # Project Xavier
-        # alias xav='cd ~/Development/work/indie-soft/project-xavier/'
+        alias xav='cd ~/Development/work/indie-soft/xavier/'
 
       # Personal
       alias personal='cd ~/Development/personal/'
