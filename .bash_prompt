@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# Change Prompts
+# http://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/
+export PS1="\w $ "
+export PS2="  $ "
